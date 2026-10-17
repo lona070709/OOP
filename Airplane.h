@@ -1,5 +1,6 @@
-#ifndef OOP1_AIRPLANE_H
-#define OOP1_AIRPLANE_H
+#ifndef AIRPLANE_H
+#define AIRPLANE_H
+
 #include "Transport.h"
 
 class Airplane : public Transport {
@@ -8,4 +9,5 @@ public:
 
     void move() override;
 };
-#endif //OOP1_AIRPLANE_H
+
+#endif

@@ -2,5 +2,5 @@
 #include <iostream>
 
 void Ship::move() {
-    cout << "The ship (draft " << draft << " m) sails on the water" << endl;
+    std::cout << "The ship (draft " << draft << " m) sails on the water" << std::endl;
 }

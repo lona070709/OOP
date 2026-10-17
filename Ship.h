@@ -1,5 +1,6 @@
-#ifndef OOP1_SHIP_H
-#define OOP1_SHIP_H
+#ifndef SHIP_H
+#define SHIP_H
+
 #include "Transport.h"
 
 class Ship : public Transport {
@@ -8,4 +9,5 @@ public:
 
     void move() override;
 };
-#endif //OOP1_SHIP_H
+
+#endif

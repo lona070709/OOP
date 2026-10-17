@@ -3,7 +3,6 @@
 #include "Car.h"
 #include "Airplane.h"
 #include "Ship.h"
-using namespace std;
 
 int main() {
     Car car;
@@ -26,12 +25,12 @@ int main() {
     t = &car;
     t->showInfo();
     t->move();
-    cout << endl;
+    std::cout << std::endl;
 
     t = &plane;
     t->showInfo();
     t->move();
-    cout << endl;
+    std::cout << std::endl;
 
     t = &ship;
     t->showInfo();

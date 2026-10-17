@@ -1,5 +1,6 @@
-#ifndef OOP1_CAR_H
-#define OOP1_CAR_H
+#ifndef CAR_H
+#define CAR_H
+
 #include "Transport.h"
 
 class Car : public Transport {
@@ -8,4 +9,5 @@ public:
 
     void move() override;
 };
-#endif //OOP1_CAR_H
+
+#endif
